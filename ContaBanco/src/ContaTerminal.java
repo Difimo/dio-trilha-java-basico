@@ -1,5 +1,9 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
+public class ContaTerminal {
+    int numero;
+    String agencia;
+    String nome_cliente;
+    float decimal;
+
+    
+
 }
