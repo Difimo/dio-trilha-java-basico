@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class ContaTerminal {
     
     public static void main(String[] args) throws Exception {
-
+        Scanner entrada = new Scanner(System.in);
         // TODO: Conhecer e importar a classe scanner, exibir as mensagems para o nosso usuario
         // obter pela classe scanner os valores digitados no terminal
         // exibir a mensagem final ( msg da conta criada)
         Conta diegConta = new Conta();
 
 
-        Scanner entrada = new Scanner(System.in);
+        
 
         System.out.println("Por favor, digite o número da Agência !");
         String numero_agencia =  entrada.nextLine();
@@ -27,7 +27,7 @@ public class ContaTerminal {
         
 
         
-        scanner.close();
+        entrada.close();
         
     }
 }
