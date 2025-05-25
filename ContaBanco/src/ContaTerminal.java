@@ -34,10 +34,7 @@ public class ContaTerminal {
 
 
 
-        System.out.println(" Ola " +diegConta.getNome_cliente() +" !!!"+"\n Obrigado por criar uma conta em nosso banco " +
-                            "\n Sua agência é " + diegConta.getAgencia() + 
-                            "\n O numero da sua conta é " + diegConta.getNumero()+
-                            "\n O seu saldo em conta é R$ " + diegConta.getSaldo());
+        System.out.println("Olá "+ diegConta.getNome_cliente() + ", obrigado por criar uma conta em nosso banco, sua agência é "+diegConta.getAgencia()+", conta "+diegConta.getNumero()+" e seu saldo R$ "+diegConta.getSaldo()+" já está disponível para saque");
         
         
 
